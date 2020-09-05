@@ -18,6 +18,7 @@ import logo from './chat_title_2.png'
 
 
 
+
 const socket = io()
 
 
@@ -102,7 +103,7 @@ class App extends React.Component {
         </div>
         <Switch>
           <Route path="/signup">
-          
+            
           </Route>
 
           <Route path="/logout" >
